@@ -9,8 +9,8 @@
 using Ben.Core.Const;
 using Ben.Core.Enum;
 
-namespace Ben.Core.Utils {
-    public class PlatformUtils {
+namespace Ben.Core.Util {
+    public class PlatformUtil {
 
         /// <summary>
         /// Get Platform Relative Root Path

@@ -8,8 +8,8 @@
 //************************************************
 using UnityEngine;
 
-namespace Ben.Core.Utils {
-	public class AssetUtils {
+namespace Ben.Core.Util {
+	public class AssetUtil {
 		static int _unloadUnusedAssetsCount = 0;
 
 		/// <summary>

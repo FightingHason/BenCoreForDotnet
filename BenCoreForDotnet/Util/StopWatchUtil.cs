@@ -9,16 +9,16 @@
 using System.Diagnostics;
 using Ben.Core.Logger;
 
-namespace Ben.Core.Utils {
-    public class StopWatchUtils {
+namespace Ben.Core.Util {
+    public class StopWatchUtil {
 
         #region Singleton
 
-        static StopWatchUtils _instance = null;
-        public static StopWatchUtils Inst {
+        static StopWatchUtil _instance = null;
+        public static StopWatchUtil Inst {
             get {
                 if (_instance == null) {
-                    _instance = new StopWatchUtils();
+                    _instance = new StopWatchUtil();
                 }
                 return _instance;
             }
@@ -28,7 +28,7 @@ namespace Ben.Core.Utils {
 
         Stopwatch _stopwatch = null;
 
-        StopWatchUtils() {
+        StopWatchUtil() {
             _stopwatch = new Stopwatch();
         }
 

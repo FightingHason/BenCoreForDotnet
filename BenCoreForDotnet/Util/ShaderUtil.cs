@@ -9,8 +9,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Ben.Core.Utils {
-	public class ShaderUtils {
+namespace Ben.Core.Util {
+	public class ShaderUtil {
 		static readonly Dictionary<string, Shader> _existShaderDict = new Dictionary<string, Shader>();
 
 		/// <summary>

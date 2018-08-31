@@ -18,8 +18,8 @@ using Ben.Core.Logger;
 using LitJson;
 using UnityEngine;
 
-namespace Ben.Core.Utils {
-    public class FileUtils {
+namespace Ben.Core.Util {
+    public class FileUtil {
         static readonly Vector2 VECTOR2_CENTER = new Vector2(0.5F, 0.5F);
         static readonly Encoding ENCODING_FORMAT = Encoding.UTF8;
 
@@ -289,8 +289,8 @@ namespace Ben.Core.Utils {
         /// </summary>
         public static void SaveTextByDelete(Boolean isSave, String path, String info) {
             if (isSave) {
-                FileUtils.DeleteFile(path);
-                FileUtils.WriteTextByStream(path, info);
+                FileUtil.DeleteFile(path);
+                FileUtil.WriteTextByStream(path, info);
 
                 BenLogger.Debug("Save " + path + " Success!");
             }

@@ -49,6 +49,8 @@
     <Compile Include="Const\CharConst.cs" />
     <Compile Include="Const\DirectoryConst.cs" />
     <Compile Include="Const\FileTypeConst.cs" />
+    <Compile Include="Net\Http\HttpException.cs" />
+    <Compile Include="Net\NetConst.cs" />
     <Compile Include="Data\NameIdData.cs" />
     <Compile Include="Enum\PlatformEnum.cs" />
     <Compile Include="Enum\SpeakerEnum.cs" />
@@ -75,15 +77,28 @@
     <Compile Include="Mono\DelayDisplay.cs" />
     <Compile Include="Mono\DontDestroy.cs" />
     <Compile Include="Mono\SetLostShader.cs" />
+    <Compile Include="Net\Http\ContentType.cs" />
+    <Compile Include="Net\Http\HttpCode.cs" />
+    <Compile Include="Net\Http\HttpManager.cs" />
+    <Compile Include="Net\Http\HttpResult.cs" />
+    <Compile Include="Util\UrlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\Animation\UIAnimationAdaptorForSpeak.cs" />
     <Compile Include="UI\Animation\UIAnimationScale.cs" />
-    <Compile Include="Utils\AssetUtils.cs" />
-    <Compile Include="Utils\FileUtils.cs" />
-    <Compile Include="Utils\PlatformUtils.cs" />
-    <Compile Include="Utils\ShaderUtils.cs" />
-    <Compile Include="Utils\StopWatchUtils.cs" />
-    <Compile Include="Utils\SystemUtils.cs" />
+    <Compile Include="Util\AssetUtil.cs" />
+    <Compile Include="Util\Base64Util.cs" />
+    <Compile Include="Util\CRC32Util.cs" />
+    <Compile Include="Util\ETag.cs" />
+    <Compile Include="Util\FileUtil.cs" />
+    <Compile Include="Util\HashUtil.cs" />
+    <Compile Include="Util\LabMD5.cs" />
+    <Compile Include="Data\MacData.cs" />
+    <Compile Include="Util\PlatformUtil.cs" />
+    <Compile Include="Util\ShaderUtil.cs" />
+    <Compile Include="Util\Signature.cs" />
+    <Compile Include="Util\StopWatchUtil.cs" />
+    <Compile Include="Util\SystemUtil.cs" />
+    <Compile Include="Util\UnixTimestamp.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -11,8 +11,8 @@ using System.Text;
 using Ben.Core.Logger;
 using UnityEngine;
 
-namespace Ben.Core.Utils {
-    public class SystemUtils {
+namespace Ben.Core.Util {
+    public class SystemUtil {
 
         public static string GetDeviceInfo() {
             StringBuilder stringBuilder = new StringBuilder();
