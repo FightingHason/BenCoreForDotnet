@@ -2,6 +2,7 @@
 
 namespace Ben.Core.Net.Http
 {
+    [Serializable]
     class HttpException :Exception
     {
         public string message;

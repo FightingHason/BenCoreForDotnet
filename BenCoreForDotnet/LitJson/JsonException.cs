@@ -14,6 +14,7 @@ using System;
 
 namespace LitJson
 {
+    [Serializable]
     public class JsonException :
 #if NETSTANDARD1_5
         Exception
